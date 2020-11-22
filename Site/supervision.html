@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>RTSupervision</title>
+		<meta charset="UTF-8" /> 
+		<script src="https://kit.fontawesome.com/4256ea7a6a.js" crossorigin="anonymous"></script>
+		
+		<style>
+			
+			@import url(css/style.css);
+			table, tbody { border: 1px solid black; }
+		</style>
+					<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+			<script type="text/javascript" src="js/scripts.js"></script>
+	</head>
+	<body>
+		<header>
+			<img src="img/logo.png" alt="logo">
+			<nav id="navigation">
+				<ul>
+					<li><a style="color :#3f78ab;" class="fas fa-home" href="index.html">Accueil</a></li>
+					<li><a style="color :#3f78ab;" class="fas fa-file-medical" href="presentation.html">Présentation</a></li>
+					<li><a style="font-weight: bold; color :#3f78ab;" class="far fa-address-card" href="CV.html">CV</a></li>
+					<li><a style="color :#3f78ab;" class="fas fa-table" href="supervision.html">Ma supervision</a></li>
+					<li><a style="color :#3f78ab;" class="fas fa-sign-in-alt"href="connexion.html">Connexion</a></li>
+					<li><a style="color :#3f78ab;" class="fas fa-voicemail" href="contact.html">Contact</a></li>
+					<li><a style="color :#3f78ab;" class="fas fa-question-circle" href="faq.html">FAQ</a></li>
+				</ul>
+			</nav>
+			<div id="mobile_menu"></div>
+		</header>
+		<main>
+			<article>
+				<h1>Supervision</h1>
+				<table>
+					<thead>
+						<tr>
+							<td>Matériel</td>
+							<td>Référence</td>
+							<td>Statut</td>
+							<td>MTBF</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><td>Mat1</td><td>M001</td><td>OK</td><td>10 j</td></tr>
+						<tr class="color_tab"><td>Mat1</td><td>M002</td><td>OK</td><td>100 j</td></tr>
+						<tr><td>Mat1</td><td>M003</td><td>HS</td><td>25 j</td></tr>
+						<tr class="color_tab"><td>Mat1</td><td>M004</td><td>OK</td><td>300 j</td></tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan=2>Qte. matériel = 4</td>
+							<td colspan=2>Nb. HS = 1</td>
+						</tr>
+					</tfoot>
+				</table>
+			</article>
+			<aside>
+				<h3>Connexion :</h3>
+				<form>
+					<label for="email"></label>
+					<input type="email" id="email" name="email" placeholder="E-mail" required>
+					<label for="pwd"></label>
+					<input type="password" id="pwd" name="pwd" placeholder="Password" required>
+					<input type="submit">
+					<input type="reset">
+				</form>
+			</aside>
+		</main>	
+		<footer>
+			<div>&copy;RTSupervision</div>
+			<div>
+				<a href="contact.html"><img src="img/social_mail.png" alt="Contact"></a>
+				<a href="http://www.google.com"><img src="img/social_google.png" alt="Google"></a>
+				<a href="https://www.linkedin.com/"><img src="img/social_linkedin.png" alt="Linked"></a>
+				<a href="http://www.facebook.com"><img src="img/social_facebook.png" alt="Facebook"></a>
+			</div>
+			<div>01/01/2018</div>
+		</footer>
+	</body>
+</html>

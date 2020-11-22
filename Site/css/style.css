@@ -1,0 +1,268 @@
+body{ 
+	color: #3f78ab; 
+	width: 100%; 
+	margin : 0; 
+	}
+
+h1,h2,h3,h4{
+	text-shadow: 5px 5px 5px #777;
+	}
+
+article,aside{
+	border: none;
+	}
+
+header{
+	float: left; 
+	width: inherit; 
+	background:#F0F8FF; 
+	margin-bottom: 10px; 
+	color: #000;  
+	}
+
+header img{
+	float: left;
+	width: 300px
+	}
+
+nav{
+	float: right;
+ 	display: block; 
+ 	list-style: none;
+ 	margin:0px 20px 0px 0px;
+ 	font-size:14px;
+ 	text-transform: uppercase;
+ 	overflow:hidden; 
+ 	}
+
+header nav ul{
+	list-style : none; 
+	margin: 30px 5px 0px 5px; 
+	}
+
+header nav ul li{
+	float: left;
+	margin-left:10px;
+	padding: 10px;
+	color: #606060;  
+	}
+
+header nav ul li :hover{
+	background:#457bac; 
+	color: #FFF;
+	} 
+
+header nav ul li a {
+	display: block; 
+	color: inherit;
+	}
+
+header nav ul li a:link {
+	text-decoration: none ;
+	}
+
+main {
+	width: 90%; 
+	margin: 0px auto 0px auto;
+	}
+
+main article {
+	float: left; 
+	width: 75%; 
+	padding: 5px; 
+	min-height: 300px; 
+	border: 1px solid black; 
+	overflow: hidden; 
+	}
+
+main aside {
+	float: right; 
+	width: 22%; 
+	min-height: 300px; 
+	padding: 5px; 
+	border: 1px solid black;
+	background-image: url(../img/jul.png); 
+	} 
+
+footer{
+	float: left; ;
+	width: 100%;
+	margin-top: 10px; 
+	background:#4580b4; 
+	color: #FFF; 
+	border: 1px solid black;
+}
+
+footer div {
+	float: left; 
+	width: 33%; 
+	padding: 5px 0px 5px 0px
+	}
+
+footer div a {
+	text-decoration: none;
+	font-style: italic;
+	color: #FFF;
+	}
+
+footer div a img {
+	width: 20px;
+	}
+
+h1:before{
+	float: left;
+	content: url(../img/puce.png);
+	}
+
+p{
+	text-align: justify;
+	padding: 0px 10px
+	}
+
+input:focus, input:hover{
+	border-style :solid ;
+	border-color:#3f78ab;
+	}
+
+form input,form label {
+	margin-bottom: 5px;
+	}
+
+body article form{
+	text-align: center;
+}
+.form_contact {
+	width: 100%;
+	border: none;
+}
+.form_contact2 {
+	width: 60%;
+}
+
+input[type="email"],input[type="password"],input[type="radio"],input[type="text"],textarea {cursor:crosshair;}
+.icard{width:95%; border: 3px solid #3f78ab; margin: 10px 2px 2px 15px }
+
+#mobile_menu {
+	background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NUYyQjRCNzQyMDRDMTFFNzk1QzA4REQ5RTg5MzNFNkUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NUYyQjRCNzUyMDRDMTFFNzk1QzA4REQ5RTg5MzNFNkUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1RjJCNEI3MjIwNEMxMUU3OTVDMDhERDlFODkzM0U2RSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1RjJCNEI3MzIwNEMxMUU3OTVDMDhERDlFODkzM0U2RSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvunQuYAAABGSURBVHja7NQxCgAgDMXQRrz/lb/O7lLBdOwUaHkkqc4Z1TwGzHMBXH2K/XN4gqcC0AEDlFAJlVAJDVBCJVRCJfw+YAkwADSiGDdEMMgZAAAAAElFTkSuQmCC');
+	height: 32px;
+	width: 32px;
+	display: none;
+	top: 25px;
+	right: 5px;
+	position: absolute;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	color: #3f78ab; 
+}
+
+td{
+	border: 1px solid #3f78ab;
+	width: 6%;
+}
+
+thead {
+	border: 2px solid #3f78ab;
+	font-weight: bold;
+}
+
+tfoot{
+	border: 2px solid #3f78ab;
+	font-weight: bold;
+}
+.color_tab{
+	background-color:#F0F8FF;
+}
+
+@media print{
+	header{display: none;}
+	footer{display: none;}
+	article{width: 100%;}
+	aside{display: none;}
+	body{color:black; font-family: georgia;}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+
+	body {
+		width: 100%;
+	}
+	main article{
+		width: 77%;
+	}
+	main aside {
+		 width: 20%;
+	 }
+} 
+
+@media screen and (max-width: 1024px) {
+	
+	#titre{
+		margin-top: 50px;
+	}
+	
+	#bas{
+		margin-bottom: 30px;
+	}
+
+	body main{
+		width: 100%;
+	}
+	body main article {
+		width: 100%;
+		border: none;
+		padding: 10% 0% 4% 0%;
+	}
+	body main aside {
+		display: none;
+	}
+
+	body footer {
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+
+	}
+
+	body header{
+		position: fixed;
+		top: 0;
+	}
+
+	#mobile_menu {
+		display: block;
+	}
+	header nav, header nav ul, header nav ul li{
+		width: 100%;
+	}
+	header nav ul li{
+	margin: 0;
+	}
+
+	nav{
+		display: none;
+	}
+
+	.top_mobile{
+		display: none;
+	}
+
+	.form_contact2 {
+		width: 95%;
+	}
+	.form_contact3 {
+		margin-top: 5%;
+	}
+
+	#h1contact {
+		display: none;
+	}
+
+}
+
+.parcour_cv{
+	width: 80%;
+}
